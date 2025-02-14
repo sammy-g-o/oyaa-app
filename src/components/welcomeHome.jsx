@@ -4,9 +4,11 @@ import { FaFaceSmileBeam } from "react-icons/fa6";
 import { FaUsers } from "react-icons/fa";
 import { FaFireFlameCurved } from "react-icons/fa6";
 import "./welcomeHome.css";
+import BackButton from "./backButton";
 function WelcomeHome() {
   return (
     <section className="wrapper">
+      <BackButton/>
       <div className="content">
         <div className="links">
           <Link>

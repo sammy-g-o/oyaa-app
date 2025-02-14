@@ -2,9 +2,11 @@
 import SocialsFooter from "./socialsFooter";
 import { Link } from "react-router-dom";
 import "./register.css";
+import BackButton from "./backButton";
 function Register() {
   return (
     <section className="registerSection">
+      <BackButton />
       <div className="registerContainer">
         <h1 className="header">
           Create your <br />
@@ -12,7 +14,7 @@ function Register() {
         </h1>
         <form action="">
           {/* <FaUser/> */}
-          <input type="text" name="" id="input" placeholder="Mr Cane"/>
+          <input type="text" name="" id="input" placeholder="Mr Cane" />
           <input type="email" name="" id="input" />
           <input type="password" name="" id="input" />
           <input type="submit" value="Register" className="registerButton" />

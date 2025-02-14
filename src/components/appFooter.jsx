@@ -9,23 +9,24 @@ function AppFooter() {
     <div className="footer">
       <ul>
         <li>
-          <NavLink>
-          <RiHome5Fill />
+          <NavLink to="/home" className={({ isActive }) => (isActive ? "active" : "")}>
+            <RiHome5Fill />
+            
           </NavLink>
         </li>
         <li>
-          <NavLink>
-          <PiCirclesFourThin />
+          <NavLink to="/chats" className={({ isActive }) => (isActive ? "active" : "")}>
+            <PiCirclesFourThin />
           </NavLink>
         </li>
         <li>
-          <NavLink>
-          <PiClockThin />
+          <NavLink to="/notifications" className={({ isActive }) => (isActive ? "active" : "")}>
+            <PiClockThin />
           </NavLink>
         </li>
         <li>
-          <NavLink>
-          <LuCircleUserRound />
+          <NavLink to="/profile" className={({ isActive }) => (isActive ? "active" : "")}>
+            <LuCircleUserRound />
           </NavLink>
         </li>
       </ul>

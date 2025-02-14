@@ -20,6 +20,9 @@
 }
 .footer ul li a {
   text-decoration: none;
-  color: #000;
+  color: #9E9E9E;
   font-size: 28.83203125px;
+}
+.footer ul li a.active{
+  color: #000000;
 }
