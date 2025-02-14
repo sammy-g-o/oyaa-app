@@ -1,0 +1,12 @@
+.input-wrap{
+    display: flex;
+    justify-content: center;
+}
+.wrap{
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+.icon-wrap{
+    position: absolute;
+}

@@ -1,0 +1,91 @@
+.registerSection {
+  background-color: #F7F8FA;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.registerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.header {
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 47.5px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #323142;
+}
+.registerContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.registerContainer #input {
+  color: #141718;
+  padding: 20px;
+  background: #ffffff;
+  width: 344px;
+  height: 65.52px;
+  top: 310px;
+  left: 35px;
+  gap: 0px;
+  border-radius: 12.84px;
+  border: 2px solid #141718;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.registerButton {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #f3f5f6;
+  width: 344px;
+  height: 65.52px;
+  top: 571px;
+  left: 35px;
+  gap: 0px;
+  border-radius: 14px;
+  opacity: 0px;
+  background: #141718;
+}
+.signupLink {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #acadb9;
+}
+.signupLink a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  text-decoration: none;
+  color: #141718;
+}
